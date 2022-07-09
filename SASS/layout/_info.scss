@@ -1,0 +1,44 @@
+.info {
+    background-color: var(--clr-neutral-100);
+    padding: 2rem;
+    color: var(--clr-neutral-700);
+    border-radius: 1rem;
+
+    hr { display: block; height: 1px;
+        border: 0; border-top: 3px solid var(--clr-neutral-600);
+        margin: 1.5rem 0; padding: 0; }
+
+    .month {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        font-size: var(--fs-600);
+
+        p {
+            margin-bottom: .625rem;
+        }
+    
+        .total-value {
+            color: var(--clr-neutral-900);
+            font-size: var(--fs-900);
+            font-weight: 700;
+        }
+
+        .percent {
+            text-align: right;
+
+            p {
+                margin: 0;
+                margin-top: .35rem ;
+            }
+
+            span {
+                color: var(--clr-neutral-900);
+                font-weight: 700;
+            }
+        }
+
+    }
+}
+

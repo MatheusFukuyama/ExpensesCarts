@@ -1,0 +1,19 @@
+.balance {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--clr-primary-700);
+    padding: 2rem;
+    color: var(--clr-neutral-100);
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+
+    p {
+        font-size: var(--fs-600);
+        margin-bottom: 1rem;
+    }
+
+    span {
+        font-size: var(--fs-800);
+        font-weight: 700;
+    }
+}

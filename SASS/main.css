@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"); /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --clr-primary-700: hsl(10, 79%, 65%);
+  --clr-primary-500: hsl(186, 34%, 60%);
+  --clr-primary-400: hsla(10, 79%, 65%, 60%);
+  --clr-primary-300: hsla(186, 34%, 60%, 60%);
+  --clr-neutral-900: hsl(25, 47%, 15%);
+  --clr-neutral-700: hsl(28, 10%, 53%);
+  --clr-neutral-600: hsl(27, 66%, 92%);
+  --clr-neutral-100: hsl(33, 100%, 98%);
+  --ff-primary: "DM Sans", sans-serif;
+  --fs-900: 2.5rem;
+  --fs-800: 1.75rem;
+  --fs-700: 1.125rem;
+  --fs-600: 1rem;
+}
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1024px;
+  width: 1440px;
+  background-color: var(--clr-neutral-600);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-700);
+  color: var(--clr-primary-500);
+}
+
+h1 {
+  color: var(--clr-neutral-900);
+  font-size: var(--fs-800);
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--clr-primary-700);
+  padding: 2rem;
+  color: var(--clr-neutral-100);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.balance p {
+  font-size: var(--fs-600);
+  margin-bottom: 1rem;
+}
+.balance span {
+  font-size: var(--fs-800);
+  font-weight: 700;
+}
+
+.info {
+  background-color: var(--clr-neutral-100);
+  padding: 2rem;
+  color: var(--clr-neutral-700);
+  border-radius: 1rem;
+}
+.info hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid var(--clr-neutral-600);
+  margin: 1.5rem 0;
+  padding: 0;
+}
+.info .month {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: var(--fs-600);
+}
+.info .month p {
+  margin-bottom: 0.625rem;
+}
+.info .month .total-value {
+  color: var(--clr-neutral-900);
+  font-size: var(--fs-900);
+  font-weight: 700;
+}
+.info .month .percent {
+  text-align: right;
+}
+.info .month .percent p {
+  margin: 0;
+  margin-top: 0.35rem;
+}
+.info .month .percent span {
+  color: var(--clr-neutral-900);
+  font-weight: 700;
+}
+
+#graphic {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.125rem;
+}
+
+.column {
+  width: 3.125rem;
+  background-color: var(--clr-primary-700);
+  border-radius: 0.325rem;
+  margin-bottom: 1.125rem;
+}
+.column:hover {
+  background-color: var(--clr-primary-400);
+}
+
+.emphasis {
+  background-color: var(--clr-primary-500);
+}
+.emphasis:hover {
+  background-color: var(--clr-primary-300);
+}
+
+p {
+  text-align: center;
+}
+
+.amount {
+  display: none;
+  position: absolute;
+  text-align: center;
+  padding: 0.5625rem;
+  background-color: var(--clr-neutral-900);
+  font-weight: 700;
+  border-radius: 0.325rem;
+}
+
+.dayColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */

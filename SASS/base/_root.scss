@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+    --clr-primary-700: hsl(10, 79%, 65%);
+    --clr-primary-500: hsl(186, 34%, 60%);
+    
+    --clr-primary-400: hsla(10, 79%, 65%, 60%);
+    --clr-primary-300: hsla(186, 34%, 60%, 60%);
+
+    --clr-neutral-900: hsl(25, 47%, 15%);
+    --clr-neutral-700: hsl(28, 10%, 53%);
+    --clr-neutral-600: hsl(27, 66%, 92%);
+    --clr-neutral-100: hsl(33, 100%, 98%);
+
+    --ff-primary: 'DM Sans', sans-serif;
+
+    --fs-900: 2.5rem;
+    --fs-800: 1.75rem;
+    --fs-700: 1.125rem;
+    --fs-600: 1rem;
+
+    @media screen and (max-width: 650px) {
+    }
+}
