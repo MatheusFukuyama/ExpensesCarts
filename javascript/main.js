@@ -2,7 +2,7 @@ const currentDate = new Date()
 let currentDay = currentDate.getDay()
 let dayCounter = 1;
 
-fetch ("http://localhost:3000/days", {mode: 'cors'})
+fetch ("https://expenses-chart-component-main.herokuapp.com/days")
 .then(response => response.json())
 .then(data => {
     const graphic = document.getElementById('graphic')
