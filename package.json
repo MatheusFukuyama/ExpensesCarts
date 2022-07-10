@@ -1,0 +1,20 @@
+{
+  "name": "expenses-chart-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusFukuyama/ExpensesCarts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusFukuyama/ExpensesCarts/issues"
+  },
+  "homepage": "https://github.com/MatheusFukuyama/ExpensesCarts#readme"
+}
