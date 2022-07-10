@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MatheusFukuyama/ExpensesCarts/issues"
   },
-  "homepage": "https://github.com/MatheusFukuyama/ExpensesCarts#readme"
+  "homepage": "https://github.com/MatheusFukuyama/ExpensesCarts#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
 }
