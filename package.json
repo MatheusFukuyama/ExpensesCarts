@@ -2,9 +2,10 @@
   "name": "expenses-chart-component-main",
   "version": "1.0.0",
   "description": "![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
     "url": "https://github.com/MatheusFukuyama/ExpensesCarts/issues"
   },
   "homepage": "https://github.com/MatheusFukuyama/ExpensesCarts#readme",
-  "devDependencies": {
+  "dependencies": {
     "json-server": "^0.17.0"
   }
 }
