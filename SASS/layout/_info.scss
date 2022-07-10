@@ -3,10 +3,17 @@
     padding: 2rem;
     color: var(--clr-neutral-700);
     border-radius: 1rem;
+    min-width: auto;
 
-    hr { display: block; height: 1px;
-        border: 0; border-top: 3px solid var(--clr-neutral-600);
-        margin: 1.5rem 0; padding: 0; }
+
+    hr { 
+        display: block; 
+        height: 1px;
+        border: 0; 
+        border-top: 3px solid var(--clr-neutral-600);
+        margin: 1.25rem 0; 
+        padding: 0; 
+    }
 
     .month {
         display: flex;
@@ -36,9 +43,32 @@
             span {
                 color: var(--clr-neutral-900);
                 font-weight: 700;
+                font-size: var(--fs-300);
             }
         }
 
+    }
+
+    @media screen and (max-width: 450px) {
+        
+        border-radius: .5rem;
+
+        hr {
+            border-top: 2px solid var(--clr-neutral-600);
+        }
+
+        .month {
+            .total-value {
+                font-size: var(--fs-600);
+            }
+        }
+
+        .percent {
+            span {
+                color: var(--clr-neutral-900);
+                font-weight: 700;
+            }
+        }
     }
 }
 

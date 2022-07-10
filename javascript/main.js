@@ -43,5 +43,8 @@ fetch ("https://expenses-chart-component-main.herokuapp.com/days")
         })
         
         dayCounter++
+
+        if(dayCounter == 7)
+            dayCounter = 0
     });
 })
